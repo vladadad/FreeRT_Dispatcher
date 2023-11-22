@@ -1,5 +1,5 @@
 # FreeRT_Dispatcher
-# The code was generated for NUCLEO-F746ZG board
+* The code was generated for NUCLEO-F746ZG board
 
 In this project I had to simulate a dispathcer unit using a 'Message Queue' IPC. There job is to navigate incoming calls between 4 departments: Police, Fire, Ambulance and Corona.
 Each department has its maximum number of cars, each car is a different thread, that read a task only if it addressed to their deparment and the message is read right from the queue.
